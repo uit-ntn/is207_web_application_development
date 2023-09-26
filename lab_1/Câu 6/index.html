@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Câu 6</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="form-container">
+            <p>Phiếu đăng ký tham gia dự thưởng</p>
+            <table border="1">
+                <tr>
+                    <td> Họ và tên</td>
+                    <td> <input type="text" placeholder="Nguyễn Văn A"> </td>
+                </tr>
+                <tr>
+                    <td> Địa chỉ </td>
+                    <td> <input class="address" type="text"
+                            placeholder="abc, xyz, jkq"> </td>
+                </tr>
+                <tr>
+                    <td> Phái </td>
+                    <td class="gender">
+                        <label>
+                            <input type="radio" name="gender" value="Nam"> Nam
+                        </label>
+                        <label>
+                            <input type="radio" name="gender" value="Nữ"> Nữ
+                        </label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Sản phẩm</td>
+                    <td>
+                        <select name="product" id="product">
+                            <option value="iphone 11 pro max">iphone 11 pro max</option>
+                            <option value="samsung galaxy note 20">samsung
+                                galaxy note 20</option>
+                            <option value="xiaomi redmi k30">xiaomi redmi k30</option>
+                            <option value="oppo a53">oppo a53</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>số dự đoán</td>
+                    <td><input type="number" name="prediction"></td>
+                </tr>
+                <tr>
+                    <td class="sign-up-btn" colspan="2">
+                        <button>Đăng ký</button>
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </body>
+</html>

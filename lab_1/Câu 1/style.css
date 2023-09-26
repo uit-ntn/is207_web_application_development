@@ -1,0 +1,21 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.cat-list{
+    display: flex;
+}
+.img-container{
+    height: 300px;
+    width: 300px;
+    margin: 5px;
+}
+.img-container p{
+    text-align: center;
+    font-weight: bold;
+    
+}
+.img-container img{
+    height: 100%;
+    width: 100%;
+}

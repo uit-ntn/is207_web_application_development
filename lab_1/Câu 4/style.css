@@ -1,0 +1,43 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.menu{
+    background-color: #FFEDCA;
+    display: flex;
+    width: 800px;
+    justify-content: center;
+}
+.menu-img img{
+    width: 100px;
+    height : 150px;
+}
+table{
+    margin : 10px 10px 20px 0;
+    width:  600px;
+}
+.food-table p{
+    text-align: center;
+    color: blueviolet;
+    font-weight: bold;
+    margin-top: 20px;
+    font-size: 20px;
+}
+.table-title{
+background-color:  #CC6600;
+color: white;
+text-align: center;
+font-weight: bold;
+}
+.order{
+    text-align: center;
+    width: 50px;
+}
+.name{
+    padding: 5px;
+}
+.odd{
+    background-color:#ffffff;
+}
+

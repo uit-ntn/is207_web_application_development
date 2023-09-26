@@ -1,0 +1,35 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+table {
+    margin: 5px;
+    width: 300px;
+    height: 150px;
+}
+
+
+.login {
+    text-align: center;
+    color: rgb(64, 91, 198);
+}
+.username {
+    padding-left: 20px; 
+}
+
+.password {
+    padding-left: 20px; 
+}
+hr{
+    border-color: blue;
+    width: 320px;
+}
+.login-btn{
+    border-radius: 20px;
+    width: 80px;
+}
+.forgot {
+    text-align: center;
+    font-style: italic;
+}

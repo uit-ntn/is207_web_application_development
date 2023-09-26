@@ -1,0 +1,50 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+}
+.form-container {
+    background-color: #FFEDCA;
+    padding: 20px;
+    width: 40%;
+}
+
+
+.form-container p {
+    text-align: center;
+    font-weight: bold;
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+table{
+    margin:0 auto;
+}
+
+
+table tr td {
+    padding: 5px;
+}
+
+table tr td :nth-child(2) {
+    width: 300px;
+}
+
+.address {
+    width: 95%;
+}
+.gender{
+    display: flex;
+    justify-content: flex-start;
+}
+td label{
+    margin: 0 5px;
+}
+.sign-up-btn{
+    text-align: center;
+}
