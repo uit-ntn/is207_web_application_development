@@ -1,0 +1,45 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+form table {
+    background-color: greenyellow;
+}
+
+form table .table-title {
+    text-align: center;
+    font-weight: bold;
+    font-size: 40px;
+
+}
+
+form table tr td {
+    padding: 5px;
+}
+
+form table tr td select option {
+    padding: 1px;
+    margin: 1px;
+}
+
+form table .calculate-bill-btn {
+    text-align: center;
+}
+
+form table tr td .calculate-bill-btn button {
+    margin: auto;
+}
+
+form table .bill-info {
+    display: block;
+}
+
+form table .bill-info td {
+
+}
+
+.bill-info .oder-summary {
+    width: 100%;
+}
