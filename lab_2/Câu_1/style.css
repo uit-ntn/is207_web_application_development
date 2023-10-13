@@ -1,0 +1,32 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+form {
+    margin: auto;
+    font-size: 20px;
+}
+table tr td {
+padding: 5px;
+
+}
+table tr td input{
+    padding: 5px;
+    font-size: 20px;
+    
+    }
+    table tr td button{
+        width: 200px;
+        font-size: 20px;
+        border-radius: 5px;
+    }

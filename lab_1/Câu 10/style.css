@@ -1,0 +1,120 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 300px;
+    margin: 5px;
+    border: 1px solid black;
+}
+#title {
+    color: #A9A9A9;
+    margin: 5px;
+    text-align: center;
+}
+
+form{
+    width: 95%;
+    margin: 2.5%;
+}
+form input{
+    width: 100%;
+}
+
+
+.navigation {
+    width: 300px;
+}
+
+.container {
+    width: 100%;
+    padding: 10px;
+}
+
+.main-menu,
+.sub-nav {
+    list-style: none;
+    padding: 0;
+    width: 95%;
+    
+}
+
+.main-menu a {
+    background-color: #F0FFFF;
+    color: #0000FF;
+}
+
+.main-menu a:hover {
+    background-color: #A9A9A9;
+}
+
+.sub-nav a {
+    background-color: #FFFFFF;
+    color: #0000FF;
+}
+
+.sub-nav a:hover {
+    background-color: #CCC;
+}
+
+.main-menu,
+.sub-nav {
+    margin: 0;
+}
+
+.main-menu a {
+    display: block;
+    background-color: #F0FFFF;
+    text-decoration: none;
+    padding: 10px;
+    color: #0000FF;
+}
+
+.main-menu a:hover {
+    background-color: #A9A9A9;
+}
+
+.main-menu li:hover .sub-nav {
+    display: block;
+    max-height: 200px;
+}
+
+.sub-menu a {
+    background-color: #FFFFFF;
+    color: #0000FF;
+}
+
+.sub-menu a:hover {
+    background-color: #CCC;
+}
+
+.main-menu a:hover {
+    background-color: #A9A9A9;
+}
+
+.main-menu li:hover .sub-nav {
+    display: block;
+    max-height: 200px;
+}
+
+.sub-nav a {
+    background-color: #FFFFFF;
+    color: #0000FF;
+}
+
+.sub-nav a:hover {
+    background-color: #CCC;
+}
+
+.sub-nav {
+    overflow: hidden;
+    max-height: 0;
+    transition: all 0.5s ease-out;
+}

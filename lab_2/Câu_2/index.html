@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cau_2</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <form action="">
+        <table border="1">
+            <tr>
+                <td colspan="3" class="table-title">Thực đơn</td>
+            </tr>
+            <tr>
+                <th>Thức ăn</th>
+                <th>Nước uống</th>
+                <th>Thời điểm</th>
+            </tr>
+            <tr>
+                <td>
+                    <select name="food" multiple>
+                        <option value="Bún bò">Bún bò</option>
+                        <option value="Hủ tiếu">Hủ tiếu</option>
+                        <option value="Bánh canh">Bánh canh</option>
+                        <option value="Phở">Phở</option>
+                        <option value="Nuôi">Nuôi</option>
+                    </select>
+                </td>
+                <td>
+                    <select name="drink" multiple>
+                        <option value="cà phê đá">cà phê đá</option>
+                        <option value="cà phê sữa đá">cà phê sữa đá</option>
+                        <option value="chanh dây">chanh dây</option>
+                        <option value="chanh muối">chanh muối</option>
+                        <option value="sữa tươi">sữa tươi</option>
+                        <option value="xí muội">xí muội</option>
+                    </select>
+                </td>
+                <td>
+                    <label>
+                        <input type="radio" name="time" value="ban_ngay"> Ban ngày
+                    </label>
+                    <label>
+                        <input type="radio" name="time" value="ban_dem"> Ban đêm
+                    </label>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="3" class="calculate-bill-btn">
+                    <button>Tính tiền</button>
+                </td>
+            </tr>
+        </table>
+    </form>
+    <div class="bill-info">
+        <div>
+            <div id="order-summary">
+                <h2>Đơn hàng của bạn:</h2>
+                <ul id="selected-items"></ul>
+                <p>Tổng tiền: <span id="total-cost"></span></p>
+            </div>
+        </div>
+    </div>
+    <script src="scripts.js"></script>
+</body>
+
+</html>
