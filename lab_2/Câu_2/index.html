@@ -22,21 +22,21 @@
             <tr>
                 <td>
                     <select name="food" multiple>
-                        <option value="Bún bò">Bún bò</option>
-                        <option value="Hủ tiếu">Hủ tiếu</option>
-                        <option value="Bánh canh">Bánh canh</option>
-                        <option value="Phở">Phở</option>
-                        <option value="Nuôi">Nuôi</option>
+                        <option value="Bún bò" money="20000">Bún bò</option>
+                        <option value="Hủ tiếu" money="18000">Hủ tiếu</option>
+                        <option value="Bánh canh" money="17000">Bánh canh</option>
+                        <option value="Phở" money="19000">Phở</option>
+                        <option value="Nuôi" money="15000">Nuôi</option>
                     </select>
                 </td>
                 <td>
                     <select name="drink" multiple>
-                        <option value="cà phê đá">cà phê đá</option>
-                        <option value="cà phê sữa đá">cà phê sữa đá</option>
-                        <option value="chanh dây">chanh dây</option>
-                        <option value="chanh muối">chanh muối</option>
-                        <option value="sữa tươi">sữa tươi</option>
-                        <option value="xí muội">xí muội</option>
+                        <option value="cà phê đá" money="12000">cà phê đá</option>
+                        <option value="cà phê sữa đá" money="15000">cà phê sữa đá</option>
+                        <option value="chanh dây" money="13000">chanh dây</option>
+                        <option value="chanh muối" money="12000">chanh muối</option>
+                        <option value="sữa tươi" money="14000">sữa tươi</option>
+                        <option value="xí muội" money="13000">xí muội</option>
                     </select>
                 </td>
                 <td>
@@ -49,20 +49,26 @@
                 </td>
             </tr>
             <tr>
-                <td colspan="3" class="calculate-bill-btn">
-                    <button>Tính tiền</button>
+                <td colspan="3">
+                    <button class="calculate-bill-btn">Tính tiền</button>
                 </td>
             </tr>
         </table>
     </form>
-    <div class="bill-info">
-        <div>
-            <div id="order-summary">
-                <h2>Đơn hàng của bạn:</h2>
-                <ul id="selected-items"></ul>
-                <p>Tổng tiền: <span id="total-cost"></span></p>
-            </div>
-        </div>
+
+    <div class="bill-info-container">
+        <table border="1">
+            <tr>
+                <th>các món đã dùng</th>
+                <th>tiền</th>
+            </tr>
+            <tr>
+                <td id="ordered-items"></td>
+                <td>
+                    <div class="total-payment"></div>
+                </td>
+            </tr>
+        </table>
     </div>
     <script src="scripts.js"></script>
 </body>

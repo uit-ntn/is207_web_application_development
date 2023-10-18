@@ -77,12 +77,11 @@ body {
     height: 20px;
 }
 
-.form-container table tr .sign-up-btn {
+.form-container table tr .sign-up-box {
 
-    text-align: center;
+   text-align: center;
 }
 
-.form-container table tr .sign-up-btn button {
-
-    margin: auto;
+.info-register{
+    display: block;
 }

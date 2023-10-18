@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Câu 5</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <form action="">
+        <table border="1">
+            <tr>
+                <td>sản phẩm</td>
+                <td>số lượng</td>
+                <td>đơn giá</td>
+                <td>thành tiền</td>
+                <td>chức năng</td>
+            </tr>
+
+            <tr>
+                <td>iphone 11 promax</td>
+                <td><input class="amount" type="number" value="" onchange="updateTotal()"></td>
+                <td><input class="unit-price" type="text" onchange="updateTotal()"></td>
+                <td>
+                    <div class="total-price"></div>
+                </td>
+                <td><button class="remove-btn" onclick="removeRow(this)">xóa</button></td>
+            </tr>
+            <tr>
+                <td>Samsung galaxy note 10+</td>
+                <td><input class="amount" type="number" value="" onchange="updateTotal()"></td>
+                <td><input class="unit-price" type="text" onchange="updateTotal()"></td>
+                <td>
+                    <div class="total-price"></div>
+                </td>
+                <td><button class="remove-btn" onclick="removeRow(this)">xóa</button></td>
+            </tr>
+            <tr>
+                <td colspan="3"> tổng tiền </td>
+                <td colspan="2" class="grand-total"></td>
+            </tr>
+        </table>
+    </form>
+    <script src="scripts.js"></script>
+</body>
+
+</html>
