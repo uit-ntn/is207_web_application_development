@@ -1,0 +1,25 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+table {
+    background-color: #FFEDCA;
+
+}
+
+table tr td {
+
+    min-width: 100px;
+    padding: 5px;
+    text-align: center;
+}

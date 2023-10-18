@@ -14,33 +14,25 @@
         <table border="1">
             <tr>
                 <td> Họ và tên</td>
-                <td> <input type="text" placeholder="Nguyễn Văn A"> </td>
+                <td> <input name="full-name" type="text" placeholder="Nguyễn Văn A"> </td>
             </tr>
             <tr>
                 <td> Địa chỉ </td>
-                <td> <input class="address" type="text" placeholder="abc, xyz, jkq"> </td>
+                <td> <input name="address" type="text" placeholder="abc, xyz, jkq"> </td>
             </tr>
             <tr>
                 <td>Điện thoại</td>
-                <td><input type="text" placeholder="09xxxxxxxxxx"></td>
+                <td><input name="phone-number" type="text" placeholder="09xxxxxxxxxx"></td>
             </tr>
             <tr>
                 <td>tour</td>
                 <td>
                     <select name="tour">
-                        <option value="chon-tour">chọn tour</option>
-                        <option disabled>
-                            Tour Giá tiền / Người
-                        </option>
-                        <option value="ha-noi-ha-long-tuan-chau">
-                            Hà Nội - Hạ Long - Tuần Châu
-                        </option>
-                        <option value="ha-noi-sapa">
-                            Hà Nội - Sapa
-                        </option>
-                        <option value="da-nang-hoi-an">
-                            Đà Nẵng - Hội An
-                        </option>
+                        <option value="chon-tour" disabled>chọn tour</option>
+                        <option value="10000">Hà Nội - Hạ Long - Tuần Châu </option>
+                        <option value="6000">Hà Nội - Sapa</option>
+                        <option value="3000">Đà Nẵng - Hội An</option>
+                        <option value="2000">Buôn mê thuộc - Kon Tum </option>
                     </select>
                 </td>
             </tr>
@@ -65,16 +57,17 @@
                 </td>
             </tr>
             <tr>
-                <td class="sign-up-btn" colspan="2">
-                    <button>Đăng ký</button>
+                <td class="sign-up-box" colspan="2">
+                    <button class="sign-up-btn">Đăng ký</button>
                 </td>
             </tr>
-            <td colspan="2">
-                <div id="registration-info"></div>
-            </td>
-        </table>    
+        </table>
+        <div class="info-register-box">
+            <div class="registration-info"></div>
+        </div>
     </form>
 
 </body>
 <script src="scripts.js"></script>
+
 </html>

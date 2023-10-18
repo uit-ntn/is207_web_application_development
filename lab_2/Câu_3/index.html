@@ -4,12 +4,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Câu 3</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
     <form action="">
-        <table>
+        <table border="1">
             <tr>
                 <td>
                     <div class="date-time">
@@ -22,10 +23,42 @@
             </tr>
             <tr>
                 <td colspan="2">
-                    Thực đơn
+                    <h3>Thực đơn</h3>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2" class="menu-container">
+                    <table border="1">
+                        <tr>
+                            <th >Bàn</th>
+                            <th>Món ăn</th>
+                        </tr>
+                        <tr class="menu">
+                            <td>
+                                <select name="table" id="table-select">
+                                    <option value="ban-1">bàn 1</option>
+                                    <option value="ban-2">bàn 2</option>
+                                    <option value="ban-3">bàn 3</option>
+                                </select>
+                            </td>
+                            <td>
+                                <select name="food" id="food-select">
+                                    <option value="20000">bún bò</option>
+                                    <option value="18000">hủ tiếu</option>
+                                    <option value="17000">bánh canh</option>
+                                    <option value="19000">phở bò</option>
+                                    <option value="15000">nuôi</option>
+                                    <option value="12000">bánh mì thịt</option>
+                                    <option value="15000">bánh cuốn</option>
+                                </select>
+                            </td>
+                        </tr>
+                    </table>
                 </td>
             </tr>
         </table>
     </form>
+    <script src="scripts.js"></script>
 </body>
+
 </html>

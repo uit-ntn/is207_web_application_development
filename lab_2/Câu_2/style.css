@@ -4,6 +4,19 @@
     box-sizing: border-box;
 }
 
+body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+form {
+    margin-bottom: 20px;
+}
+
 form table {
     background-color: greenyellow;
 }
@@ -32,14 +45,10 @@ form table tr td .calculate-bill-btn button {
     margin: auto;
 }
 
-form table .bill-info {
-    display: block;
+.bill-info-container table tr td {
+   width: 200px;
 }
-
-form table .bill-info td {
-
-}
-
-.bill-info .oder-summary {
-    width: 100%;
+.bill-info-container table tr th {
+    width: 200px;
+   
 }
