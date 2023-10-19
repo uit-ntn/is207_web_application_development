@@ -1,6 +1,6 @@
 *{
     padding: 0;
-    margin : 0;
+    margin: 0;
     box-sizing: border-box;
 }
 body{
@@ -10,7 +10,7 @@ body{
     height: 100vh;
 }
 #ticketForm{
-margin: auto;
+    margin: auto;
 }
 #ticketForm table{
     width: 400px;
@@ -32,9 +32,8 @@ table tr td{
     border: 1px solid #000;
 } 
 
-
 .ticket-info table tr td{
-   width: 200px;
+    width: 200px;
 }
 
 .ticket-info table th{
@@ -44,5 +43,5 @@ table tr td{
     text-align: center;
 }
 .ticket-info table .seat-box td{
-   margin: auto;
+    margin: auto;
 }

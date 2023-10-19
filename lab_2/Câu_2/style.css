@@ -33,7 +33,7 @@ form table tr td {
 }
 
 form table tr td select option {
-    padding: 1px;
+    padding: 5px;
     margin: 1px;
 }
 
@@ -45,8 +45,20 @@ form table tr td .calculate-bill-btn button {
     margin: auto;
 }
 
+.bill-info-container{
+    display: none;
+}
+.bill-info-container table{
+    background-color: aqua;
+}
+.bill-info-container table tr th{
+    font-weight: bold;
+    text-align :center;
+    color: blue;
+}
 .bill-info-container table tr td {
    width: 200px;
+   padding: 5px;
 }
 .bill-info-container table tr th {
     width: 200px;
