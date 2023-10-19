@@ -1,0 +1,48 @@
+*{
+    padding: 0;
+    margin : 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    width: 100vw;
+    padding: 5px;
+    height: 100vh;
+}
+#ticketForm{
+margin: auto;
+}
+#ticketForm table{
+    width: 400px;
+}
+#ticketForm table select{
+    width: 100%;
+    padding: 2px;
+}
+#ticketForm table .buy-btn-box{
+    text-align: center;
+}
+table tr td{
+    padding: 5px;
+}
+.ticket-info{
+    margin: auto;
+}
+.ticket-info table{
+    border: 1px solid #000;
+} 
+
+
+.ticket-info table tr td{
+   width: 200px;
+}
+
+.ticket-info table th{
+    text-align: center;
+}
+.ticket-info table .seat-box{
+    text-align: center;
+}
+.ticket-info table .seat-box td{
+   margin: auto;
+}
