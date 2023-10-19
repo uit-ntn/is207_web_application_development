@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="vn">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cau 4</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <form action="" id="ticketForm">
+        <table border="1">
+            <tr>
+                <th colspan="2">mua vé</th>
+            </tr>
+            <tr>
+                <td>ngày chiếu</td>
+                <td><input type="date" name="date-time" id="date-time"></td>
+            </tr>
+            <tr>
+                <td>phim</td>
+                <td>
+                    <select name="film" id="film">
+                        <option value="" disabled>Phim</option>
+                        <option value="">Yêu em bất chấp</option>
+                        <option value="">Tháng năm rực rỡ</option>
+                        <option value="">Và em sẽ đến</option>
+                        <option value="">Chuyện ma lúc 3 giờ sáng</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    suất chiếu
+                </td>
+                <td>
+                    <select name="showtime" id="showtime">
+                        <option value="" disabled>suất chiếu</option>
+                        <option value="45000">9h-12h</option>
+                        <option value="45000">13h-16h</option>
+                        <option value="55000">17h-20h</option>
+                        <option value="35000">22h-2h</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    phòng chiếu
+                </td>
+                <td>
+                    <select name="cinema" id="cinema">
+                        <option value="1.0">Đồng</option>
+                        <option value="1.2">Bạc</option>
+                        <option value="1.5">Vàng</option>
+                        <option value="2.0">Kim cương</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>chọn chỗ ngồi</td>
+                <td>
+                    <select name="seat" id="seat" multiple>
+                        <option value="ghế 1">Ghế 1</option>
+                        <option value="ghế 2">Ghế 2</option>
+                        <option value="ghế 3">Ghế 3</option>
+                        <option value="ghế 4">Ghế 4</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2" class="buy-btn-box"><button class="buy-btn" onclick="calculateTotal()">Mua vé</button></td>
+            </tr>
+        </table>
+    </form>
+    <div class="ticket-info"></div>
+    <script src="scripts.js"></script>
+</body>
+
+</html>
