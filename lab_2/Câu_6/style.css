@@ -7,6 +7,8 @@
 body {
     width: 100vw;
     margin: auto;
+    display: flex;
+    justify-content: space-between;
 }
 
 .form-container {
@@ -84,4 +86,26 @@ body {
 
 .info-register{
     display: block;
+}
+.tour-info, .amount-info{
+    display: none;
+    padding: 5px;
+    border: 1px solid #000000;
+    margin: auto;
+}
+.tour-info th{
+    text-align: center;
+    font-weight: bold;
+}
+.tour-info table tr td{
+    padding: 5px;
+    margin: 5px;
+}
+.amount-info-row {
+    display: flex;
+    justify-content: space-around;
+}
+.amount-info-row div{
+    width: 100px;
+    padding: 5px;
 }
