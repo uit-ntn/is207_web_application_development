@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="vn">
 
 <head>
     <meta charset="UTF-8">
@@ -29,7 +29,7 @@
                 <td>
                     <select name="tour">
                         <option value="chon-tour" disabled>chọn tour</option>
-                        <option value="10000">Hà Nội - Hạ Long - Tuần Châu </option>
+                        <option value="10000" name="Hà Nội - Hạ Long - Tuần Châu">Hà Nội - Hạ Long - Tuần Châu </option>
                         <option value="6000">Hà Nội - Sapa</option>
                         <option value="3000">Đà Nẵng - Hội An</option>
                         <option value="2000">Buôn mê thuộc - Kon Tum </option>
@@ -42,18 +42,17 @@
                         <div class="customer-amount-title">Số lượng đoàn khách</div>
                         <div class="customer-input-form">
                             <div>người lớn</div>
-                            <input type="number" name="" id="" class="customer-input">
+                            <input type="number" name="amount-adult" id="" class="customer-input">
                             <div>trẻ em</div>
-                            <input type="number" class="customer-input">
+                            <input type="number" name="amount-child" class="customer-input">
                         </div>
                     </div>
-
                 </td>
             </tr>
             <tr class="note">
                 <td>ghi chú</td>
                 <td>
-                    <input type="text">
+                    <input type="text" class="note-input">
                 </td>
             </tr>
             <tr>
@@ -66,8 +65,8 @@
             <div class="registration-info"></div>
         </div>
     </form>
-
+    <div class="tour-info"></div>
+    <div class="amount-info"></div>
+    <script src="scripts.js"></script>
 </body>
-<script src="scripts.js"></script>
-
 </html>
