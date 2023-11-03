@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Cau 2</title>
+</head>
+
+<body>
+    <table>
+        <tr>
+            <th>Danh sách nước uống</th>
+        </tr>
+        <tr>
+            <td>
+                <select name="drink" id="drink" multiple>
+                    <option value="15000">cà phê đá</option>
+                    <option value="20000">cà phê sữa</option>
+                    <option value="30000">cam vắt</option>
+                    <option value="20000">chanh muối</option>
+                    <option value="15000">nước ngọt</option>
+                    <option value="10000">nước suối</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td><input type="checkbox" value="ban-ngay">ban ngày</td>
+            <td><input type="checkbox" value ="ban-dem">ban đêm</td>
+        </tr>
+        <tr>
+            <td><button onclick="CalculateMoney()">Thành tiền</button></td>
+        </tr>
+        <tr>
+            <td colspan="2">
+                <table id="bill-info" border="1">      
+                </table>
+            </td>
+        </tr>
+    </table>
+    <script src="scripts.js"></script>
+</body>
+
+</html>
