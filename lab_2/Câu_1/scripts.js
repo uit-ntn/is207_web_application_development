@@ -19,7 +19,7 @@ $(document).ready(() => {
     const salary = $('.salary-input').val();
     const coefficient = $('.coefficient-input').val();
     const income = $('.income');
-    if (!isNaN(salary) && !isNaN(coefficient))
+    if (!isNaN(salary) && !isNaN(coefficient) && salary > 0 && coefficient > 0)
       income.text(`${salary * coefficient}`)
     else
       income.text("nhập giá trị hợp lệ");
